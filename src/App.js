@@ -1,6 +1,6 @@
 import './App.css';
 import Button from 'react-bootstrap/Button';
-import Nav from 'react-bootstrap/Nav'
+import Nav from 'react-bootstrap/Nav';
 import Form from 'react-bootstrap/Form'
 
 
@@ -10,7 +10,8 @@ function App() {
     <div className="App">
       <Nav
         activeKey="/home"
-        onSelect={key => alert(`Selected nav element is ${key}`)}>
+        onSelect={key => alert(`Selected nav element is ${key}`)}
+      >
         <Nav.Item>
           <Nav.Link href='/home'>Home</Nav.Link>
         </Nav.Item>
